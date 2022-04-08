@@ -1,0 +1,36 @@
+.board {
+  border: 5px solid rgb(6, 7, 7);
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.black-square {
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-square {
+  background-color: #555353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-piece {
+  border: 1px solid #000;
+  background-color: #c85653;
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+}
+
+.black-piece {
+  border: 1px solid #000;
+  background-color: #749ab2;
+  border-radius: 50%;
+  width: 70%;
+  height: 70%;
+}
