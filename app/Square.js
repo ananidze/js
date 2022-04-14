@@ -1,5 +1,5 @@
 export default class Square {
-  constructor({ row, col, toFill }) {
+  constructor(row, col, toFill) {
     this.element = document.createElement("div");
     // ცვლადი რომლის ჭეშმარიტების შემთხვევაში უჯრა უნდა შევავსოთ შავი ფერით
     if (toFill) {
