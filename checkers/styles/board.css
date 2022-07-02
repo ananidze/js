@@ -1,18 +1,20 @@
 .board {
   border: 5px solid rgb(6, 7, 7);
   display: grid;
+  height: 95vmin;
+  width: 95vmin;
   justify-content: center;
   grid-template-columns: repeat(10, 1fr);
 }
 
-.black-square {
+.black-tile {
   background-color: #2d2d2d;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.white-square {
+.white-tile {
   background-color: #555353;
   display: flex;
   justify-content: center;
@@ -33,4 +35,12 @@
   border-radius: 50%;
   width: 70%;
   height: 70%;
+}
+
+.king {
+  background-image: url("../assets/crown.svg");
+}
+
+.possible {
+  background-color: green;
 }
