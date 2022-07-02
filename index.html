@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            background-color: #151515;
+        }
+
+        .link-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            position: relative;
+            z-index: 0;
+        }
+
+        a {
+            font-family: "Bungee", cursive;
+            font-size: 2.5em;
+        }
+
+        .link-one {
+            color: #53d9d1;
+        }
+
+        .link-three {
+            color: #eb7132;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-one">
+        <div class="link-container">
+            <a class="link-one" href="XO Game/index.html">XO Game</a>
+        </div>
+    </div>
+    <div class="background-three link-container">
+        <a class="link-three" href="15 Puzzle Game/index.html">15 Puzzle Game</a>
+    </div>
+</body>
+
+</html>
